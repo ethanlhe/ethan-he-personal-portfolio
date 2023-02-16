@@ -16,17 +16,17 @@ const NavHeader = () => {
       <div className="section-container">
         <Nav className="ml-auto">
           <Nav.Link href="#about">
-            <Link activeClass="active" isDynamic smooth spy to="about">
+            <Link activeClass="active" className="section-title" isDynamic smooth spy to="about">
               ABOUT
             </Link>
           </Nav.Link>
           <Nav.Link href="#projects">
-            <Link activeClass="active" isDynamic smooth spy to="projects">
+            <Link activeClass="active" className="section-title" isDynamic smooth spy to="projects">
               PROJECTS
             </Link>
           </Nav.Link>
           <Nav.Link href="#contact">
-            <Link activeClass="active" isDynamic smooth spy to="contact">
+            <Link activeClass="active" className="section-title" isDynamic smooth spy to="contact">
               CONTACT
             </Link>
           </Nav.Link>

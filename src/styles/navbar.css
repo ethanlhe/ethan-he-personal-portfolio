@@ -13,10 +13,15 @@
 
 .logo-container {
   text-align: left;
-  padding-left: 3em;
+  padding-left: 49px;
 }
 .section-container {
-  padding-right: 3em;
+  font-size: 24px;
+  padding-right: 24px;
+  justify-content: space-between;
+}
+.section-title {
+  padding: 25px;
 }
 
 html,
