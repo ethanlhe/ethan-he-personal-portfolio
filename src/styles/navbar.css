@@ -1,15 +1,26 @@
 .navbar-header {
   font-family: "Gulfs Display";
   display: flex;
+  align-items: center;
   justify-content: space-between;
+  margin: 1em;
 }
 
-.nav-intro {
-  padding-left: 2.5%;
-  padding-right: 2.5%;
+.logo {
+  flex-wrap: wrap;
+  width: 20%;
 }
-.active {
-  font-weight: bold;
-  text-decoration: none;
-  color: black;
+
+.logo-container {
+  text-align: left;
+  padding-left: 3em;
+}
+.section-container {
+  padding-right: 3em;
+}
+
+html,
+body {
+  max-width: 100%;
+  overflow-x: hidden;
 }
