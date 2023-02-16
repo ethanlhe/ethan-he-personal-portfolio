@@ -1,4 +1,5 @@
 .portfolio-container {
+  font-family: "Gulfs Display";
   padding: 0;
   margin: 0;
 }
@@ -10,21 +11,37 @@
 }
 
 .title-text {
-  font-size: 32px;
+  font-size: 114px;
   font-weight: bold;
+}
+.title-text::selection {
+  color: #ffffff;
+  text-shadow: none;
+}
+.about-section {
+  display: flex;
+}
+.about-content {
+  font-family: "Anybody", sans-serif;
+  font-size: 16px;
+}
+
+.about-content::selection {
+  color: #ffffff;
+  text-shadow: none;
 }
 
 .about-page {
   /* add any styling to the about section! */
-  background-color: #F5F8F9;
+  background-color: #f5f8f9;
 }
 
 .projects-page {
   /* add any styling to the projects section! */
-  background-color: #F1FBFD;
+  background-color: #f1fbfd;
 }
 
 .contact-page {
   /* add any styling to the contact section! */
-  background-color: #EDF3FF;
+  background-color: #edf3ff;
 }

@@ -1,15 +1,15 @@
-.navbar-header{
-    width: 100%;
-    background-color: #DEDEDE;
+.navbar-header {
+  font-family: "Gulfs Display";
+  display: flex;
+  justify-content: space-between;
 }
 
 .nav-intro {
-    padding-left: 2.5%; 
-    padding-right: 2.5%; 
+  padding-left: 2.5%;
+  padding-right: 2.5%;
 }
-
 .active {
-    font-weight: bold;
-    text-decoration: none;
-    color: black;
+  font-weight: bold;
+  text-decoration: none;
+  color: black;
 }
